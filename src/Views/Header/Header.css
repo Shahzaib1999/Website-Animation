@@ -1,0 +1,128 @@
+.headerWrapper {
+  text-align: center;
+}
+
+.bgColor {
+  background-image: linear-gradient(180deg, #d9e4ff, #fff);
+}
+
+.headerTitleWrapper {
+  margin-top: 90px;
+}
+
+.titleText {
+  font-size: 70px;
+  font-weight: bolder;
+  font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Roboto",
+    "sans-serif";
+}
+
+.subTitleText {
+  max-width: 565px;
+  font-size: 24px;
+  line-height: 1.67;
+  color: rgba(40, 40, 65, 0.7);
+}
+
+.btnWrapper {
+  margin-top: 30px;
+}
+
+.headerDownloadBtn {
+  min-width: 240px;
+  font-size: 22px;
+  padding: 12px;
+  font-weight: 500;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  border: 1px solid rgba(45, 90, 210, 0.8);
+  background-image: linear-gradient(180deg, #359cff, #0037d2);
+}
+
+.headerBuyBtn {
+  min-width: 240px;
+  color: #282841;
+  font-size: 22px;
+  padding: 12px;
+  font-weight: 500;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #fff, #fff 46%, #f3f3f3);
+  border: 1px solid hsla(0, 0%, 86%, 0.8);
+  margin-left: 30px;
+}
+
+.videoWrapper {
+  position: relative;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.video {
+  position: relative;
+  z-index: 9;
+  width: 440px;
+  height: 440px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 30px 80px 0 rgba(40, 52, 205, 0.6);
+  box-shadow: 0 30px 80px 0 rgba(40, 52, 205, 0.6);
+}
+
+.videoImg {
+  display: none;
+}
+
+.videoBgImg {
+  height: 290px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 991px) {
+  .headerTitleWrapper {
+    margin-top: 50px;
+  }
+  .titleText {
+    font-size: 60px;
+  }
+  .subTitleText {
+    max-width: 490px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .headerTitleWrapper {
+    margin-top: 30px;
+  }
+  .titleText {
+    font-size: 34px;
+  }
+  .subTitleText {
+    max-width: 410px;
+    font-size: 18px;
+  }
+  .btnWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .headerDownloadBtn{
+    font-size: 16px;
+    padding: 15px;
+    line-height: .73;
+  }
+  .headerBuyBtn{
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 15px;
+    line-height: .73;
+  }
+  .videoBgImg{
+    display: none;
+  }
+}

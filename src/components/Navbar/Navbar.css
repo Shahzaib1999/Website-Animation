@@ -29,6 +29,10 @@
   background-image: linear-gradient(180deg, #359cff, #0037d2);
 }
 
+.downloadBtn:hover{
+  background-image: linear-gradient(180deg,#0986ff,#00299d);
+}
+
 @media (max-width: 1199px) {
   .navbarContainer {
     padding: 0px;

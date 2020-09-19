@@ -1,0 +1,439 @@
+.floatingIconWrapper {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding-top: 45px;
+  padding-bottom: 100px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.titleTextWrapper {
+  padding-top: 200px !important;
+  position: relative;
+}
+
+.titleTextTitleText {
+  max-width: 550px;
+  font-size: 48px;
+  font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Roboto",
+    "sans-serif";
+  font-weight: bold;
+  line-height: 1.21;
+  color: #282841;
+}
+
+.floatingIconSubTitleText {
+  margin: 40px 0px;
+  color: rgba(40, 40, 65, 0.7);
+  font-size: 24px;
+}
+
+.floatingIconImage {
+  max-width: 100%;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+  -webkit-box-shadow: 0 30px 80px 0 rgba(40, 52, 205, 0.4);
+  box-shadow: 0 30px 80px 0 rgba(40, 52, 205, 0.4);
+}
+
+.floatingIconsWrapper {
+  position: relative;
+}
+
+.floatingIcon {
+  position: absolute;
+  font-size: 16px;
+  color: #282841;
+}
+
+.floatingIcon img {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+}
+
+.appearIcon {
+  right: 120px;
+  bottom: 60px;
+}
+
+.messengerIcon {
+  right: 340px;
+  bottom: 150px;
+}
+
+.meetingIcon {
+  right: 180px;
+  bottom: 335px;
+}
+
+.skypeIcon {
+  right: 415px;
+  bottom: 450px;
+}
+
+.slackIcon {
+  right: 680px;
+  bottom: 570px;
+}
+
+.zoomIcon {
+  left: 630px;
+  bottom: 425px;
+}
+
+.hangoutsIcon {
+  left: 430px;
+  bottom: 515px;
+}
+
+.webexIcon {
+  left: 200px;
+  bottom: 365px;
+}
+
+.viberIcon {
+  left: 380px;
+  bottom: 90px;
+}
+
+.telegramIcon {
+  left: 140px;
+  bottom: 25px;
+}
+
+.skypeBlurIcon {
+  right: 50px;
+  bottom: 220px;
+  filter: blur(10px);
+  opacity: 0.6;
+}
+
+.viberBlurIcon {
+  right: 260px;
+  bottom: 540px;
+  filter: blur(10px);
+  opacity: 0.6;
+}
+
+.telegramBlurIcon {
+  right: 620px;
+  bottom: 420px;
+  filter: blur(10px);
+  opacity: 0.6;
+}
+
+.slackBlurIcon {
+  left: 350px;
+  bottom: 320px;
+  filter: blur(10px);
+  opacity: 0.6;
+}
+
+.messengerBlurIcon {
+  left: 230px;
+  bottom: 590px;
+  filter: blur(10px);
+  opacity: 0.6;
+}
+
+.hangoutsBlurIcon {
+  left: 60px;
+  bottom: 270px;
+  filter: blur(10px);
+  opacity: 0.6;
+}
+
+@media(max-width: 1400px){
+  .slackIcon{
+    right: 600px;
+  }
+  .zoomIcon{
+    left: 500px;
+  }
+  .hangoutsIcon{
+    left: 350px;
+  }
+  .webexIcon{
+    left: 150px;
+  }
+  .viberIcon{
+    bottom: 155px;
+  }
+  .telegramBlurIcon {
+    display: none;
+  }
+}
+
+@media(max-width: 1250px){
+  .messengerIcon{
+    right: 260px;
+  }
+  .skypeIcon{
+    right: 350px;
+  }
+  .slackIcon{
+    right: 550px;
+  }
+  .zoomIcon{
+    left:450px;
+  }
+  .viberIcon{
+    left: 300px;
+  }
+  .hangoutsIcon{
+    left: 270px;
+  }
+  .messengerBlurIcon{
+    left: 150px;
+  }
+  .viberBlurIcon{
+    right: 150px;
+  }
+}
+
+@media(max-width: 1050px){
+  .meetingIcon{
+    right: 150px;
+  }
+  .skypeIcon{
+    right: 230px;
+  }
+  .slackIcon{
+    right: 380px;
+  }
+  .viberIcon{
+    left: 220px;
+    bottom: 180px;
+  }
+}
+
+@media(max-width: 900px){
+  .appearIcon{
+    right: 50px;
+    bottom: 70px;
+  }
+  .messengerIcon{
+    right: 150px;
+    bottom: 180px;
+  }
+  .meetingIcon{
+    right: 60px;
+    bottom: 320px;
+  }
+  .skypeIcon{
+    right: 120px;
+    bottom: 510px;
+  }
+  .zoomIcon{
+    left: 510px
+  }
+  .slackIcon{
+    right: 400px;
+  }
+  .hangoutsIcon{
+    left: 180px;
+  }
+  .webexIcon{
+    left: 100px;
+  }
+  .telegramIcon{
+    left: 50px;
+  }
+  .skypeBlurIcon {
+    display: none;
+  }
+  .viberBlurIcon {
+    display: none;
+  }
+  .telegramBlurIcon {
+    display: none;
+  }
+  .slackBlurIcon {
+    display: none;
+  }
+  .messengerBlurIcon {
+    display: none;
+  }
+  .hangoutsBlurIcon {
+    display: none;
+  }
+}
+
+@media(max-width: 750px){
+  .titleTextWrapper{
+    margin-top: 520px;
+  }
+  .zoomIcon{
+    left: 280px;
+    bottom: 450px;
+  }
+  .webexIcon{
+    left: 120px;
+    bottom: 500px;
+  }
+  .viberIcon{
+    left: 550px;
+    bottom: 550px;
+  }
+  .hangoutsIcon{
+    left: 230px;
+    bottom: 650px;
+  }
+  .telegramIcon{
+    left: 450px;
+    bottom: 700px;
+  }
+  .messengerIcon{
+    right: 450px;
+    bottom: 800px;
+  }
+  .skypeIcon{
+    right: 260px;
+    bottom: 870px;
+  }
+  .slackIcon{
+    right: 100px;
+    bottom: 930px;
+  }
+  .appearIcon{
+    right: 500px;
+    bottom: 1000px;
+  }
+  .meetingIcon{
+    right: 200px;
+    bottom: 1050px;
+  }
+  .titleTextTitleText{
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 615px){
+  .zoomIcon{
+    left: 250px;
+    bottom: 450px;
+  }
+  .zoomIcon img{
+    width: 80px;
+  }
+  .webexIcon{
+    left: 100px;
+  }
+  .viberIcon{
+    left: 400px;
+  }
+  .hangoutsIcon{
+    left: 180px;
+  }
+  .telegramIcon{
+    left: 330px;
+  }
+  .messengerIcon{
+    right: 220px;
+  }
+  .skypeIcon{
+    right: 350px;
+  }
+  .skypeIcon img{
+    width: 70px;
+  }
+  .slackIcon{
+    right: 100px;
+  }
+  .appearIcon{
+    right: 300px;
+    bottom: 1000px;
+  }
+  .meetingIcon{
+    right: 120px;
+  }
+  .titleTextTitleText{
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 430px){
+  .titleTextWrapper{
+    margin-top: 530px;
+  }
+  .zoomIcon{
+    left: 230px;
+    bottom: 400px;
+  }
+  .zoomIcon img{
+    width: 60px;
+  }
+  .webexIcon{
+    left: 90px;
+    bottom: 420px;
+  }
+  .webexIcon img{
+    width: 60px;
+  }
+  .viberIcon{
+    left: 50px;
+  }
+  .hangoutsIcon{
+    left: 210px;
+    bottom: 610px;
+  }
+  .telegramIcon{
+    left: 120px;
+  }
+  .messengerIcon{
+    display: none;
+  }
+  .skypeIcon{
+    right: 260px;
+    bottom: 800px;
+  }
+  .skypeIcon img{
+    width: 60px;
+  }
+  .slackIcon{
+    right: 100px;
+    bottom: 850px;
+  }
+  .appearIcon{
+    right: 50px;
+  }
+  .meetingIcon{
+    right: 200px;
+    bottom: 950px;
+  }
+  .titleTextTitleText{
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 350px){
+  .zoomIcon{
+    left: 180px;
+  }
+  .webexIcon{
+    left: 60px;
+  }
+  .hangoutsIcon{
+    left: 170px;
+  }
+  .telegramIcon{
+    left: 100px;
+  }
+  .skypeIcon{
+    display: none;
+  }
+  .slackIcon{
+    right: 40px;
+    bottom: 800px;
+  }
+  .meetingIcon{
+    right: 150px;
+    bottom: 850px;
+  }
+  .appearIcon{
+    left: 50px;
+    bottom: 970px;
+  }
+}

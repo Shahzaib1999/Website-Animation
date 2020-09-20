@@ -1,0 +1,286 @@
+.volumeMainWrapper {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.volumeMainWrapper::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 800px;
+  top: 50%;
+  background-image: -webkit-linear-gradient(top, #d9e4ff, #fff);
+  background-image: -o-linear-gradient(top, #d9e4ff, #fff);
+  background-image: linear-gradient(180deg, #d9e4ff, #fff);
+}
+
+.volumeMainWrapper::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 800px;
+  bottom: 50%;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#d9e4ff),
+    to(#fff)
+  );
+  background-image: -webkit-linear-gradient(bottom, #d9e4ff, #fff);
+  background-image: -o-linear-gradient(bottom, #d9e4ff, #fff);
+  background-image: linear-gradient(0deg, #d9e4ff, #fff);
+}
+
+.containerWrapper {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.volumeWrapper {
+  position: relative;
+  background-image: url("https://mutify.app/images/noise-level-312d9e01fe.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 30px 80px 0 rgba(85, 85, 135, 0.4);
+  box-shadow: 0 30px 80px 0 rgba(85, 85, 135, 0.4);
+  padding: 156px 80px;
+  overflow: hidden;
+}
+
+.textWrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.volumeTextWrapper h2 {
+  max-width: 400px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #fff;
+  font-size: 48px;
+  font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Roboto",
+    sans-serif;
+  line-height: 1.21;
+  font-weight: bold;
+}
+
+.volumeTextWrapper p {
+  max-width: 440px;
+  color: hsla(0, 0%, 100%, 0.7);
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Roboto",
+    sans-serif;
+  font-size: 24px;
+  line-height: 1.67;
+}
+
+.volumeImgWrapper {
+  position: absolute;
+  top: 52%;
+  right: -160px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.volumeLoaderWrapper {
+  position: absolute;
+  top: 48%;
+  right: 290px;
+  display: flex;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.active {
+  background-color: #fff;
+}
+
+.css-lntj6m-BallBeat div {
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: 10px !important;
+}
+
+@media (max-width: 1150px) {
+  .containerWrapper {
+    max-width: 960px;
+  }
+  .volumeWrapper {
+    padding: 101px 40px;
+  }
+  .volumeImage {
+    width: 85%;
+  }
+  .volumeImgWrapper {
+    right: -250px;
+  }
+  .volumeLoaderWrapper {
+    right: 360px;
+  }
+}
+
+@media (max-width: 960px) {
+  .containerWrapper {
+    max-width: 720px;
+  }
+  .volumeWrapper {
+    padding-top: 67.5px;
+    padding-bottom: 67.5px;
+  }
+  .volumeTextWrapper h2 {
+    max-width: 300px;
+    font-size: 40px;
+  }
+  .volumeTextWrapper p {
+    max-width: 330px;
+    font-size: 20px;
+  }
+  .volumeImage {
+    width: 60%;
+  }
+  .volumeImgWrapper {
+    right: -420px;
+  }
+  .volumeLoaderWrapper {
+    right: 500px;
+  }
+  .css-lntj6m-BallBeat div {
+    width: 13px !important;
+    height: 13px !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .containerWrapper {
+    max-width: 540px;
+  }
+  .volumeWrapper {
+    padding: 50px 30px;
+  }
+  .volumeTextWrapper h2 {
+    max-width: 270px;
+    font-size: 35px;
+  }
+  .volumeTextWrapper p {
+    max-width: 240px;
+    font-size: 18px;
+  }
+  .volumeImage {
+    width: 45%;
+  }
+  .volumeImgWrapper {
+    right: -530px;
+  }
+  .volumeLoaderWrapper {
+    right: 580px;
+  }
+  .css-lntj6m-BallBeat div {
+    width: 9px !important;
+    height: 9px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .containerWrapper {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .volumeWrapper {
+    border-radius: 7.5px;
+    padding: 30px 20px;
+  }
+  .volumeTextWrapper {
+    position: relative;
+    z-index: 1;
+  }
+  .volumeTextWrapper h2 {
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .volumeTextWrapper p {
+    max-width: 280px;
+    margin-bottom: 20px;
+  }
+  .volumeBtn {
+    width: 100%;
+    display: block;
+    padding: 15px;
+  }
+  .volumeImgWrapper {
+    position: relative;
+    top: auto;
+    right: auto;
+    text-align: center;
+    margin-top: 160px;
+  }
+  .volumeImage {
+    width: 420px;
+    height: 400px;
+    margin: -120px -25%;
+  }
+  .volumeLoaderWrapper {
+    top: 43%;
+    right: auto;
+    left: 28%;
+  }
+}
+
+@media (max-width: 440px) {
+  .volumeLoaderWrapper {
+    left: 20%;
+  }
+}
+
+@media (max-width: 350px) {
+  .volumeImage {
+    margin-left: -80px;
+  }
+  .volumeLoaderWrapper {
+    left: 15%;
+  }
+}
+
+@media (max-width: 350px) {
+  .volumeImage {
+    margin-left: -90px;
+  }
+  .volumeLoaderWrapper {
+    left: 10%;
+  }
+}
+
+@media (max-width: 315px) {
+  .volumeImage {
+    margin-left: -100px;
+  }
+  .volumeLoaderWrapper {
+    left: 7%;
+  }
+  .volumeBtn{
+    margin-left: -12px !important;
+  }
+}

@@ -46,6 +46,9 @@
   .downloadBtn {
     display: none;
   }
+  .navbarLink > div li {
+    padding-left: 0px !important;
+  }
 }
 
 .navbar-toggler {
